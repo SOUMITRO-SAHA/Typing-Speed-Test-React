@@ -12,3 +12,12 @@ https://www.npmjs.com/package/react-toastify
 
 README.md
 - https://shields.io/
+
+
+## Upcoming Features:
+- Multi Language Support
+- Custom Typing Test 
+- Multiplayer Typing Test
+- Typing Competition
+- Text Practice (Your own text)
+- Different Keyboard layout support

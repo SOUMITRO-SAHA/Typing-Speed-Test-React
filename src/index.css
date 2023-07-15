@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	/* For Dark Theme */
+	--dark-p: #10172b;
+	--dark-s: #20293c;
+	--dark-text: #798499;
+
+	/* For Light Theme */
+	--light-p: #fff;
+	--light-s: #20293c;
+	--light-text: #3c4252;
+	--text-active: #49a5db;
+	--light-gray: #dddddd;
+
+	/* KeyBoard Specific Color */
+	/* disable- , active- , currentKeyPress - , wrongCurrentKeyPress- */
+
+	/* Text Input Box Specific Color */
+	/* Red-500, Green-500 */
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #888;
+	border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--dark-s);
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--light-text);
+}
