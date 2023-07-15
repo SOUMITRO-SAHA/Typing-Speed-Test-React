@@ -1,0 +1,14 @@
+https://tailwindcss.com/docs/guides/create-react-app
+
+https://www.npmjs.com/package/random-words
+
+https://www.npmjs.com/package/firebase
+
+https://mui.com/material-ui/material-icons/
+
+https://www.npmjs.com/package/react-chartjs-2
+
+https://www.npmjs.com/package/react-toastify
+
+README.md
+- https://shields.io/
