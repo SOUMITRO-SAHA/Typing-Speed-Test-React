@@ -43,3 +43,41 @@
 ::-webkit-scrollbar-thumb:hover {
 	background: var(--light-text);
 }
+
+/* Blinking Cursor Animations */
+@keyframes blinking {
+	0% {
+		border-bottom-color: var(--light-gray);
+	}
+	25% {
+		border-bottom-color: var(--dark-p);
+	}
+	50% {
+		border-bottom-color: var(--light-gray);
+	}
+	75% {
+		border-bottom-color: var(--dark-p);
+	}
+	100% {
+		border-bottom-color: var(--light-gray);
+	}
+}
+.current {
+	border-bottom: 4px solid;
+	animation: blinking 2s infinite;
+	animation-timing-function: ease;
+}
+
+/* Correct Key Pressed */
+.correct {
+	color: green;
+}
+/* Incorrect Key Pressed */
+.incorrect {
+	color: red;
+}
+.red-blinking-effect {
+	outline-style: solid;
+	outline-color: red;
+	outline-width: 2px;
+}
